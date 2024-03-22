@@ -16,8 +16,6 @@ class ContactDesktop extends StatelessWidget {
     var theme = Theme.of(context);
     Size size = MediaQuery.of(context).size;
     return Container(
-      // padding: Space.all(1, 1),
-      // padding: EdgeInsets.symmetric(horizontal: AppDimensions.normalize(30)),
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
@@ -77,7 +75,7 @@ class ContactDesktop extends StatelessWidget {
                             //     width: 2.0, color: theme.primaryColor),
                             borderRadius: BorderRadius.circular(10)),
                         child: const Text(
-                          'Get Started',
+                          'Chat me',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w500,

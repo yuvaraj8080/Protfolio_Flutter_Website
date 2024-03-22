@@ -73,7 +73,7 @@ class HomeDesktop extends StatelessWidget {
                   ),
                   Space.y(1.5.w)!,
                   Padding(
-                    padding: EdgeInsets.only(right: 10.w),
+                    padding: EdgeInsets.only(right:3.w),
                     child: Text(miniDescription,
                         style: TextStyle(
                           fontSize: isFontSize(context, 20),
@@ -83,7 +83,7 @@ class HomeDesktop extends StatelessWidget {
                   ),
                   Space.y(3.w)!,
                   ColorChageButton(
-                    text: 'download cv',
+                    text: 'download resume',
                     onTap: () {
                       html.window.open(resume, "pdf");
                     },

@@ -9,8 +9,8 @@ class BodyUtils {
   static const List<Widget> views = [
     HomePage(),
     // About(),
-    Services(),
     Portfolio(),
+    Services(),
     Contact(),
     Footer(),
   ];
