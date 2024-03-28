@@ -16,7 +16,7 @@ String miniDescription =
     "I'm a passionate and experienced Mobile App Developer with a strong focus on building user-friendly and innovative applications. I specialize in developing native iOS and Android apps using Flutter. I'm eager to leverage my skills to create impactful applications that solve real-world problems.";
 
 String servicesSubHeading =
-    "Since the beginning of my journey as a freelance designer and developer, I've worked in startups and collaborated with talented people to create digital products for both business and consumer use. I offer a wide range of services, including brand design, programming and teaching.";
+    "Since the beginning of my journey as a developer, I've worked in startups and collaborated with talented people to create digital products for both business and Social help to use.";
 //
 
 String protfolioSubHeading =

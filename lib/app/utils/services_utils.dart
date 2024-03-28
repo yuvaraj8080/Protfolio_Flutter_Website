@@ -13,11 +13,11 @@ class ServicesUtils {
 
 List<ServicesUtils> servicesUtils = [
   ServicesUtils(
-    name: 'Android App Development',
-    icon: 'assets/icons/android.svg',
+    name: 'Flutter Android & Ios App Development',
+    icon: 'assets/imgs/myfoto.jpeg',
     description:
         "Are you interested in the great Mobile app? Let's make it a reality.",
-    tool: ['Flutter', 'React Native', 'Android (Kotlin or Java)'],
+    tool: ['Dart (Programing language)', 'Firebase (database)', 'GetX & Bloc','Architecture (MVC,MVVM)',"Tflite (Tenser Flow lite)"],
   ),
   ServicesUtils(
     name: 'iOS App Development',
@@ -26,18 +26,18 @@ List<ServicesUtils> servicesUtils = [
         "Are you interested in the great Mobile app? Let's make it a reality.",
     tool: ['Flutter', 'React Native'],
   ),
-  ServicesUtils(
-    name: 'UI/UX Designing',
-    icon: 'assets/icons/graphic.svg',
-    description:
-        "I'm creating elegant designs suited to your needs following core design theory. ",
-    tool: ['Adobe XD', 'Figma', 'Photoshop'],
-  ),
-  ServicesUtils(
-    name: 'Web Development',
-    icon: 'assets/icons/website.svg',
-    description:
-        "Do you have an idea for your next great website? Let's make it a reality.",
-    tool: ['Flutter', 'Html,css,js', 'Android (Kotlin or Java)'],
-  ),
+  // ServicesUtils(
+  //   name: 'UI/UX Designing',
+  //   icon: 'assets/icons/graphic.svg',
+  //   description:
+  //       "I'm creating elegant designs suited to your needs following core design theory. ",
+  //   tool: ['Adobe XD', 'Figma', 'Photoshop'],
+  // ),
+  // ServicesUtils(
+  //   name: 'Web Development',
+  //   icon: 'assets/icons/website.svg',
+  //   description:
+  //       "Do you have an idea for your next great website? Let's make it a reality.",
+  //   tool: ['Flutter', 'Html,css,js', 'Android (Kotlin or Java)'],
+  // ),
 ];

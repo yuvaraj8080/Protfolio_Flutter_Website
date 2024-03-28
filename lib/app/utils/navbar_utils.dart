@@ -3,18 +3,15 @@ import 'package:flutter/material.dart';
 class NavBarUtils {
   static const List<String> names = [
     'HOME',
-    // 'ABOUT',
-    'SERVICES',
-    'WORKS',
+    'PROJECTS',
+    'ABOUT',
     'CONTACT',
   ];
 
   static const List<IconData> icons = [
     Icons.home,
-    // Icons.person,
     Icons.work,
-    Icons.build,
-    Icons.settings,
+    Icons.account_circle,
     Icons.contact_page,
   ];
 }
