@@ -41,7 +41,7 @@ class PortfolioMobileTab extends StatelessWidget {
             enableInfiniteScroll: false,
           ),
         ),
-        Space.y(3.w)!,
+        Space.y(2.w)!,
         OutlinedButton(
           onPressed: () => openURL(gitHub),
           child: const Padding(

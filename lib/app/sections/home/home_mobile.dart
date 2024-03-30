@@ -19,7 +19,7 @@ class HomeMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: 10.w, top: 10.h, right: 10.w),
+      padding: EdgeInsets.only(left: 10.w, top: 12.h, right: 10.w),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

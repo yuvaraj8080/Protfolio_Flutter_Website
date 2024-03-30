@@ -14,17 +14,17 @@ class ServicesUtils {
 List<ServicesUtils> servicesUtils = [
   ServicesUtils(
     name: 'Flutter Android & Ios App Development',
-    icon: 'assets/imgs/myfoto.jpeg',
+    icon: 'assets/icons/android.svg',
     description:
         "Are you interested in the great Mobile app? Let's make it a reality.",
-    tool: ['Dart (Programing language)', 'Firebase (database)', 'GetX & Bloc','Architecture (MVC,MVVM)',"Tflite (Tenser Flow lite)"],
+    tool: ['Dart)', 'Firebase', 'GetX & Bloc','MVC,MVVM',"Tflite"],
   ),
   ServicesUtils(
     name: 'iOS App Development',
     icon: 'assets/icons/apple.svg',
     description:
         "Are you interested in the great Mobile app? Let's make it a reality.",
-    tool: ['Flutter', 'React Native'],
+    tool: ['Flutter', ],
   ),
   // ServicesUtils(
   //   name: 'UI/UX Designing',

@@ -15,17 +15,18 @@ class NavBarLogo extends StatelessWidget {
       fontWeight: FontWeight.w100,
       fontSize: Responsive.isDesktop(context) ? 32 : 20,
     );
-
-    return Row(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Text("< ", style: textSty),
-        Text("Yuvaraj", style: textSty),
-        Text(
-          Responsive.isDesktop(context) ? " />\t\t" : " />",
-          style: textSty,
-        )
-      ],
+    return SafeArea(
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text("@ ", style: textSty),
+          Text("Yuvaraj", style: textSty),
+          Text(
+            Responsive.isDesktop(context) ? " />\t\t" : " />",
+            style: textSty,
+          )
+        ],
+      ),
     );
   }
 }

@@ -59,12 +59,15 @@ class _NavBarTablet extends StatelessWidget {
           horizontal: Responsive.isTablet(context) ? 10.w : 10, vertical: 10),
       child: Row(
         children: [
-          IconButton(
-            highlightColor: Colors.white54,
-            onPressed: () {
-              drawerProvider.key.currentState!.openDrawer();
-            },
-            icon: const Icon(Icons.menu),
+          Padding(
+            padding: const EdgeInsets.only(left:15,top:20),
+            child: IconButton(
+              highlightColor: Colors.white54,
+              onPressed: () {
+                drawerProvider.key.currentState!.openDrawer();
+              },
+              icon: const Icon(Icons.menu),
+            ),
           ),
           Space.xm!,
           const NavBarLogo(),

@@ -42,7 +42,7 @@ class _ServiceCardState extends State<_ServiceCard> {
               widget.service.icon,
               height: 60,
             ),
-            Space.y(3.w)!,
+            Space.y(1.w)!,
             Text(widget.service.name,
                 textAlign: TextAlign.center,
                 style: TextStyle(
@@ -58,7 +58,7 @@ class _ServiceCardState extends State<_ServiceCard> {
                 fontSize: 13,
               ),
             ),
-            Space.y(2.w)!,
+            Space.y(1.w)!,
             if (Responsive.isDesktop(context))
               Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
