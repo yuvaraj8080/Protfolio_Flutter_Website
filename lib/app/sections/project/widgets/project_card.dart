@@ -36,8 +36,8 @@ class ProjectCardState extends State<ProjectCard> {
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: 1.w),
-        width: Responsive.isDesktop(context) ? 30.w : 70.w,
-        height: 36.h,
+        width: Responsive.isDesktop(context) ? 40.w : 70.w,
+        height: 40.h,
         decoration: BoxDecoration(
           gradient: isHover ? pinkpurple : grayBack,
           borderRadius: BorderRadius.circular(10),
@@ -69,7 +69,7 @@ class ProjectCardState extends State<ProjectCard> {
                     widget.project.description,
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: isHover ? whiteColor : theme.textColor,
+                      color: isHover ? whiteColor : theme.textColor,fontWeight: FontWeight.w100
                     ),
                   ),
                   SizedBox(height: height * 0.01),
@@ -86,7 +86,7 @@ class ProjectCardState extends State<ProjectCard> {
                   borderRadius: BorderRadius.circular(10),
                   image: DecorationImage(
                       image: AssetImage(widget.project.banners),
-                      fit: BoxFit.cover),
+                      fit: BoxFit.fill),
                 ),
                 // child: Image.asset(
                 //   widget.project.banners,

@@ -22,7 +22,7 @@ String servicesSubHeading =
 String protfolioSubHeading =
     "Since the beginning of my journey as a developer, I have created digital products for business and safety use. This is a little bit.";
 const String aboutMeHeadline =
-    'I\'m Sudesh Bandara, a Mobile App developer, Web developer and UI designer.';
+    'I\'m Yuvaraj Dekhane, a Mobile App developer, Web developer and UI designer.';
 
 const String aboutMeDetail =
     'I\'m a Fresh Graduate as Software Engineer from Quanrt University, UK. I have been developing mobile apps for over 4 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a CEO/Co-Founder of Onyxsio, Sri Lanka. Currently working as an Associate Software Engineer at Onyxsio.';

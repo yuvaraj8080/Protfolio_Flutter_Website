@@ -38,10 +38,8 @@ class _ServiceCardState extends State<_ServiceCard> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SvgPicture.asset(
-              widget.service.icon,
-              height: 60,
-            ),
+            CircleAvatar(backgroundImage:AssetImage(widget.service.icon),backgroundColor:Colors.transparent),
+
             Space.y(1.w)!,
             Text(widget.service.name,
                 textAlign: TextAlign.center,

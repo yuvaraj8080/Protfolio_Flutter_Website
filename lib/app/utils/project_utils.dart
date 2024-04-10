@@ -15,35 +15,37 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
-    banners: 'assets/imgs/02.png',
+    banners: 'assets/imgs/women.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Social Media App',
+    titles: 'Women Safety App(She Shield)',
     description:
-        'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/poetically-.git',
+        'The security of women is a critical issue by society. Crimes against women such as eve testing, sexual assaults, domestic violence increasing in number day by day',
+    links: 'https://github.com/yuvaraj8080',
   ),
   ProjectUtils(
-    banners: 'assets/imgs/1.png',
+    banners: 'assets/imgs/vehicle.jpg',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome CRM UI',
+    titles: 'Advanced Vehicle Dispatch App',
     description:
-        'This is a just CRM UI Design using Figma, file is also available, check below.',
-    links: 'https://github.com/sudeshnb/',
+        'Streamline dispatch with, an advanced mobile app empowering dispatchers to optimize vehicle assignments, track Emergency vehicle in real-time, and Communication with admin',
+    links: 'https://github.com/yuvaraj8080',
+  ),
+
+  ProjectUtils(
+    banners: 'assets/imgs/news.jpg',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Technology News App',
+    description:
+        'Stay ahead of the curve with [News App]. This mobile app curates the latest tech news, personalized to your interests, delivered in a sleek and user-friendly interface. ',
+    links: 'https://github.com/yuvaraj8080',
   ),
   ProjectUtils(
-    banners: 'assets/imgs/03.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Exercise App',
+    banners: 'assets/imgs/employee.jpg',
+    icons: 'assets/imgs/java.png',
+    titles: 'Employee Management System',
     description:
-        'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/elderly_exercise_app.git',
+        'An employee management system (EMS) is a software solution that centralizes and automates HR tasks, create ,update, view and delete',
+    links: 'https://github.com/yuvaraj8080',
   ),
-  ProjectUtils(
-    banners: 'assets/imgs/04.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Plant App UI',
-    description:
-        'This is a just Plant App UI by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/flutter_plant_app.git',
-  ),
+
 ];
