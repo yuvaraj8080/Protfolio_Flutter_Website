@@ -11,6 +11,7 @@ import 'package:mysite/core/res/responsive_size.dart';
 import 'package:sizer/sizer.dart';
 import 'package:universal_html/html.dart' as html;
 
+import '../../../core/util/constants.dart';
 import 'widgets/animation_text.dart';
 
 class HomeMobile extends StatelessWidget {
@@ -68,7 +69,7 @@ class HomeMobile extends StatelessWidget {
               ColorChageButton(
                 text: 'View Resume',
                 onTap: () {
-                  html.window.open(resume,"pdf");
+                  openURL(resume);
                 },
               ),
               const EntranceFader(

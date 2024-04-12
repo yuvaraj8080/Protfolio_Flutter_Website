@@ -39,7 +39,7 @@ class HomeDesktop extends StatelessWidget {
                     children: [
                       Text(hellotag,
                           style: const TextStyle(
-                            fontSize: 25,
+                            fontSize: 20,
                             fontWeight: FontWeight.w100,
                           )),
                       EntranceFader(
@@ -50,18 +50,17 @@ class HomeDesktop extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Space.y(0.5.w)!,
-                  Text(yourname,
-                      style: const TextStyle(
-                        fontSize: 50,
+                  Space.y(0.6.w)!,
+                  Text(yourname,style: const TextStyle(
+                        fontSize: 40,
                         fontWeight: FontWeight.w600,
                       )),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
-                      const Text("A ",
+                      const Text("A",
                           style: TextStyle(
-                            fontSize: 32,
+                            fontSize: 35,
                             fontWeight: FontWeight.w400,
                           )),
                       AnimatedTextKit(
@@ -71,12 +70,12 @@ class HomeDesktop extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Space.y(1.5.w)!,
+                  Space.y(1.w)!,
                   Padding(
-                    padding: EdgeInsets.only(right:3.w),
+                    padding: EdgeInsets.only(right:0.1.w),
                     child: Text(miniDescription,
                         style: TextStyle(
-                          fontSize: isFontSize(context, 20),
+                          fontSize: isFontSize(context, 16),
                           fontWeight: FontWeight.w400,
                           color: theme.textColor.withOpacity(0.6),
                         )),
@@ -85,7 +84,7 @@ class HomeDesktop extends StatelessWidget {
                   ColorChageButton(
                     text: 'view resume',
                     onTap: () {
-                      html.window.open(resume, "pdf");
+                      html.window.open(resume,"pdf");
                     },
                   ),
                 ],

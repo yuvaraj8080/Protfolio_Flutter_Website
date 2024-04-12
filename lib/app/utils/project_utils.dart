@@ -20,15 +20,16 @@ List<ProjectUtils> projectUtils = [
     titles: 'Women Safety App(She Shield)',
     description:
         'The security of women is a critical issue by society. Crimes against women such as eve testing, sexual assaults, domestic violence increasing in number day by day',
-    links: 'https://github.com/yuvaraj8080',
+    links: 'https://github.com/yuvaraj8080/Women_Safety_App.git',
   ),
+
   ProjectUtils(
     banners: 'assets/imgs/vehicle.jpg',
     icons: 'assets/imgs/flutter.png',
     titles: 'Advanced Vehicle Dispatch App',
     description:
         'Streamline dispatch with, an advanced mobile app empowering dispatchers to optimize vehicle assignments, track Emergency vehicle in real-time, and Communication with admin',
-    links: 'https://github.com/yuvaraj8080',
+    links: 'https://github.com/yuvaraj8080/vechile_dispatch_app.git',
   ),
 
   ProjectUtils(
@@ -37,15 +38,16 @@ List<ProjectUtils> projectUtils = [
     titles: 'Technology News App',
     description:
         'Stay ahead of the curve with [News App]. This mobile app curates the latest tech news, personalized to your interests, delivered in a sleek and user-friendly interface. ',
-    links: 'https://github.com/yuvaraj8080',
+    links: 'https://github.com/yuvaraj8080/Flutter-App-Mask_Detection-TECH_NewsPaper.git',
   ),
+
   ProjectUtils(
     banners: 'assets/imgs/employee.jpg',
     icons: 'assets/imgs/java.png',
     titles: 'Employee Management System',
     description:
         'An employee management system (EMS) is a software solution that centralizes and automates HR tasks, create ,update, view and delete',
-    links: 'https://github.com/yuvaraj8080',
+    links: 'https://github.com/yuvaraj8080/Employee-Management-System-Project.git',
   ),
 
 ];

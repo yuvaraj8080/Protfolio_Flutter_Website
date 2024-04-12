@@ -15,11 +15,11 @@ class ProjectCard extends StatefulWidget {
 }
 
 class ProjectCardState extends State<ProjectCard> {
+
   bool isHover = false;
 
   @override
   Widget build(BuildContext context) {
-    // double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     var theme = Theme.of(context);
     return InkWell(
@@ -36,8 +36,8 @@ class ProjectCardState extends State<ProjectCard> {
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: 1.w),
-        width: Responsive.isDesktop(context) ? 40.w : 70.w,
-        height: 40.h,
+        width: Responsive.isDesktop(context) ? 30.w : 70.w,
+        height: 35.h,
         decoration: BoxDecoration(
           gradient: isHover ? pinkpurple : grayBack,
           borderRadius: BorderRadius.circular(10),
@@ -88,10 +88,6 @@ class ProjectCardState extends State<ProjectCard> {
                       image: AssetImage(widget.project.banners),
                       fit: BoxFit.fill),
                 ),
-                // child: Image.asset(
-                //   widget.project.banners,
-                //   fit: BoxFit.cover,
-                // ),
               ),
             ),
           ],

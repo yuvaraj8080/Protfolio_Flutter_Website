@@ -33,7 +33,7 @@ class HomeTab extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(left: 10.w, top: 10.h),
+            padding: EdgeInsets.only(left: 10.w, top:20.h),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -82,17 +82,17 @@ class HomeTab extends StatelessWidget {
                     ],
                   ),
                 ),
-                Space.y(1.5.w)!,
-                Padding(
-                  padding: EdgeInsets.only(right: 50.w),
-                  child: Text(
-                    miniDescription,
-                    style: TextStyle(
-                        fontSize: isFontSize(context, 16),
-                        fontWeight: FontWeight.w100,
-                        color: theme.textColor.withOpacity(0.6)),
-                  ),
-                ),
+                // Space.y(1.5.w)!,
+                // Padding(
+                //   padding: EdgeInsets.only(right: 50.w),
+                //   child: Text(
+                //     miniDescription,
+                //     style: TextStyle(
+                //         fontSize: isFontSize(context, 16),
+                //         fontWeight: FontWeight.w100,
+                //         color: theme.textColor.withOpacity(0.6)),
+                //   ),
+                // ),
                 Space.y(2.w)!,
                 ColorChageButton(
                   text: 'View Resume',

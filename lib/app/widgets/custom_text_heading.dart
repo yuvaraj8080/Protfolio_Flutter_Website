@@ -41,7 +41,7 @@ class CustomSectionSubHeading extends StatelessWidget {
         textAlign: TextAlign.center,
         style: TextStyle(
           color: theme.textColor.withOpacity(0.6),
-          fontSize: 18,
+          fontSize: 16,
         ),
       ),
       tablet: Text(

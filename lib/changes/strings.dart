@@ -1,26 +1,25 @@
 String hellotag = '''Hi there, Welcome to My Space  ''';
 
-String yourname = "I'm Yuvaraj Dekhane,";
-// String hometitle2 = "A Mobile Application\nDeveloper";
+String yourname = "I'm Yuvaraj Dekhane";
 
-String animationtxt1 = "Professional Flutter Developer";
+String animationtxt1 = " Professional Flutter Developer";
 String animationtxt2 = " Android & Ios App Developer";
 String animationtxt3 = " Flutter Web Developer";
 
 //
-String contactHeadding = "Let’s try my service now!";
+String contactHeadding = "Have a project in mind? Get in touch, and let's bring it to life.";
 String contactSubHeadding =
     "Let’s work together and make everything super cute and super useful.";
 //
 String miniDescription =
-    "I'm a passionate and experienced Mobile App Developer with a strong focus on building user-friendly and innovative applications. I specialize in developing native iOS and Android apps using Flutter. I'm eager to leverage my skills to create impactful applications that solve real-world problems.";
+    "As a Flutter app developer, I specialize in creating innovative applications focused on safety, education, and business enhancement. My work challenges the boundaries of AI and ML, aiming to deliver joy and educational value to users while supporting social initiatives and business growth. I am dedicated to finding novel solutions to complex problems, enhancing community well-being through technology.";
 
 String servicesSubHeading =
     "Since the beginning of my journey as a developer, I've worked in startups and collaborated with talented people to create digital products for both business and Social help to use.";
 //
 
 String protfolioSubHeading =
-    "Since the beginning of my journey as a developer, I have created digital products for business and safety use. This is a little bit.";
+    "Since the beginning of my journey as a developer, I have created digital products for business and safety use. This is a little bit, I aim not only to delight users but also to offer innovative solutions for social betterment and business advancement, embodying the spirit of creativity and technological advancement.";
 const String aboutMeHeadline =
     'I\'m Yuvaraj Dekhane, a Mobile App developer, Web developer and UI designer.';
 

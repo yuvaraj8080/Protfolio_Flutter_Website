@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mysite/app/utils/project_utils.dart';
+import 'package:mysite/app/widgets/color_chage_btn.dart';
 import 'package:mysite/app/widgets/custom_text_heading.dart';
 import 'package:mysite/changes/links.dart';
 import 'package:mysite/changes/strings.dart';
@@ -24,9 +25,9 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
-          const CustomSectionHeading(text: "\nProjects"),
+          const CustomSectionHeading(text:"\nProjects"),
           Space.y(1.w)!,
-          CustomSectionSubHeading(text: protfolioSubHeading),
+          CustomSectionSubHeading(text: protfolioSubHeading,),
           Space.y(2.w)!,
           Wrap(
             alignment: WrapAlignment.start,
@@ -41,18 +42,9 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                 .toList(),
           ),
           Space.y(3.w)!,
-          OutlinedButton(
-            onPressed: () => openURL(gitHub),
-            child: const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Text(
-                'See More',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
+          ColorChageButton(
+            text: 'See More',
+            onTap: () => openURL(gitHub),
           )
         ],
       ),
