@@ -20,7 +20,7 @@ class CustomSectionHeading extends StatelessWidget {
       ),
       mobile: Text(
         text,
-        style: const TextStyle(fontSize: 26),
+        style: const TextStyle(fontSize:20),
       ),
     );
   }
