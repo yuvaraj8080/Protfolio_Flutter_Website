@@ -32,6 +32,7 @@ class PortfolioMobileTab extends StatelessWidget {
             child: ProjectCard(project: projectUtils[i]),
           ),
           options: CarouselOptions(
+            viewportFraction: 0.7,
             height: height * 0.3,
             autoPlay: true,
             autoPlayInterval: const Duration(seconds: 5),

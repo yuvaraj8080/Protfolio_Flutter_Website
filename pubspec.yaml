@@ -20,6 +20,8 @@ dependencies:
   http: ^0.13.1
   # utils
   flutter_svg: ^1.1.5
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
   # flip_card: ^0.6.0
   sizer: ^2.0.15
   connectivity_plus: ^2.3.7
@@ -36,6 +38,17 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/imgs/myfoto.jpeg"
+
+
+flutter_native_splash:
+  color: "#42a5f5"
+  branding_mode: bottom
+  background_image: "assets/imgs/banner.jpg"
 
 flutter:
   uses-material-design: true
