@@ -6,12 +6,12 @@ const String resume =
 const String gitHub = 'https://github.com/yuvaraj8080';
 // Github Link
 // const String facebook = 'https://facebook.com/sudeshnb';
-// Github Link
-// const String twitter = 'https://twitter.com/sudesh78';
-// Github Link
+
 // const String youtube = 'https://www.youtube.com/channel/UCXooUY2oL_eqGhTaZn-ExSg';
 // Github Link
 const String linkedin = 'https://linkedin.com/in/yuvaraj-dekhane-473064297';
+
+const String app = 'https://drive.google.com/file/d/12j2FPMRlTU_j5detkVDQUzYaNaseaA7l/view?usp=sharing';
 // Github Link
 const String buymeacoffee = 'https://www.buymeacoffee.com/sudeshnb';
 // Github Link

@@ -61,7 +61,7 @@ class ContactDesktop extends StatelessWidget {
                             fontWeight: FontWeight.w100,
                           ),
                         ),
-                        Space.y(2.w)!,
+                        Space.y(1.w)!,
                         // SizedBox(height: AppDimensions.space(3)),
                       ],
                     ),
@@ -87,8 +87,14 @@ class ContactDesktop extends StatelessWidget {
                     ),
                   ],
                 ),
+                const Row(children: [
+                  Text("Email: teamloading8080@gmail.com",style:TextStyle(fontWeight:FontWeight.w700,color:Colors.blue)),
+                  SizedBox(width:200),
+                  Text("Mobile NO: 8080737803",style:TextStyle(fontWeight:FontWeight.w700,color:Colors.blue)),
+
+                ],),
                 Container(color: Colors.white.withOpacity(0.2), height: 1),
-                Space.y(2.w)!,
+                Space.y(3.w)!,
                 Wrap(
                     alignment: WrapAlignment.center,
                     runSpacing: 50,

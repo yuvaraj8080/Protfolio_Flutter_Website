@@ -43,7 +43,16 @@ class ContactMobileTab extends StatelessWidget {
             ),
           ),
         ),
-        Space.y(10.w)!,
+        Space.y(5.w)!,
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text("Email: teamloading8080@gmail.com",style:TextStyle(fontWeight:FontWeight.w700,color:Colors.blue)),
+            SizedBox(width:200),
+            Text("Mobile NO: 8080737803",style:TextStyle(fontWeight:FontWeight.w700,color:Colors.blue)),
+          ],
+        ),
+        Space.y(5.w)!,
         Wrap(
             alignment: WrapAlignment.center,
             runSpacing: 50,
