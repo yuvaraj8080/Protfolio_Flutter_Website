@@ -16,6 +16,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   # state management
   provider: ^6.0.1
+  firebase_core:
   flutter_bloc: ^8.1.1
   http: ^0.13.1
   # utils
