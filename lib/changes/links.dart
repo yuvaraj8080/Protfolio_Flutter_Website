@@ -11,7 +11,7 @@ const String gitHub = 'https://github.com/yuvaraj8080';
 // Github Link
 const String linkedin = 'https://linkedin.com/in/yuvaraj-dekhane-473064297';
 
-const String app = 'https://drive.google.com/file/d/12j2FPMRlTU_j5detkVDQUzYaNaseaA7l/view?usp=sharing';
+const String app = 'https://drive.google.com/file/d/1JDIM_Wz5W-9JPNM2HS0PD3bBgRx8o_YT/view?usp=sharing';
 // Github Link
 const String buymeacoffee = 'https://www.buymeacoffee.com/sudeshnb';
 // Github Link
