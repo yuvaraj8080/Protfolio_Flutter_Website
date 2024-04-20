@@ -3,20 +3,20 @@
     "platforms": {
       "android": {
         "default": {
-          "projectId": "my-portfolio-fde66",
-          "appId": "1:412511800962:android:a99ebbe3015bdd388b2e9b",
+          "projectId": "my-portfolio-3334d",
+          "appId": "1:121695168642:android:e42f8a390936989da8ac9b",
           "fileOutput": "android/app/google-services.json"
         }
       },
       "dart": {
         "lib/firebase_options.dart": {
-          "projectId": "my-portfolio-fde66",
+          "projectId": "my-portfolio-3334d",
           "configurations": {
-            "android": "1:412511800962:android:a99ebbe3015bdd388b2e9b",
-            "ios": "1:412511800962:ios:95a969e34971ab1e8b2e9b",
-            "macos": "1:412511800962:ios:95a969e34971ab1e8b2e9b",
-            "web": "1:412511800962:web:323043496c259ad88b2e9b",
-            "windows": "1:412511800962:web:b73ce172c6ca5f2a8b2e9b"
+            "android": "1:121695168642:android:e42f8a390936989da8ac9b",
+            "ios": "1:121695168642:ios:7fd68080e89d6381a8ac9b",
+            "macos": "1:121695168642:ios:7fd68080e89d6381a8ac9b",
+            "web": "1:121695168642:web:942700e838da50dda8ac9b",
+            "windows": "1:121695168642:web:1e421568731cc942a8ac9b"
           }
         }
       }
